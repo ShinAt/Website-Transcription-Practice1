@@ -4,6 +4,7 @@ body {
 
 /*ヘッダー*/
 header {
+  z-index: 9999;
   position: fixed;
   top: 0px;
   left: 0px;
@@ -150,4 +151,69 @@ section img {
   padding-top: 25px;
   padding-bottom:  55px;
 
+}
+
+/*概要*/
+.gaiyou {
+  background-image: url("素材/introbottom.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  text-align: center;
+}
+
+.subtitle {
+  
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 5px 30px;
+  max-width: 860px;
+  font-size: 28px;
+  font-weight: bold;
+  /*かぎかっこ設定*/
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.subtitle p {
+  margin: 20px 0;
+}
+
+
+.subtitle::before, .subtitle::after {
+  position: absolute;
+  content: '';
+  width: 50px;
+  height: 50px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.subtitle::before {
+  top: 0;
+  left: 0;
+  border-top: 4px solid #EBB94D;
+  border-left: 4px solid #EBB94D;
+}
+
+.subtitle::after {
+  bottom: 0;
+  right: 0;
+  border-bottom: 4px solid #EBB94D;
+  border-right: 4px solid #EBB94D;
+}
+
+.gaiyou-text {
+  font-size: 20px;
+  margin-bottom: 140px;
+}
+
+.gaiyou-text span {
+  font-weight: bold;
+  /* border-bottom: solid 8px #EBB94D; */
+  background: linear-gradient(transparent 70%, #EBB94D 70%);
 }
