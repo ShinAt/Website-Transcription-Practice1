@@ -1,0 +1,152 @@
+body {
+  font-family: "メイリオ", sans-serif;
+}
+
+/*ヘッダー*/
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 75px;
+  background-color: white;
+}
+
+
+header nav {
+  max-width: 1160px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+header nav .header-text {
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  padding-bottom: 10px;
+}
+
+header nav img {
+  width: 129px;
+  height: 46px;
+  vertical-align: bottom;
+}
+
+header input {
+  margin-right: 10px;
+}
+
+.contact-button {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 25px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  background-color: #DA6B64;
+  color: white;
+  border: 0px;
+  cursor:pointer;
+}
+
+.contact-button:hover {
+  background-color: #D84940;
+}
+
+
+/*headline*/
+.headline {
+  height: 500px;
+  width: 100vw;
+  margin-top: 75px;
+  margin-left: 0px;
+  background-image: url("素材/main.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.logo-context {
+  margin-top: 90px;
+  
+} 
+
+.headline .logo-context p {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.headline .logo-context .title p {
+  font-size: 20px;
+  line-height: 5px;
+  margin: 16px 0;
+}
+
+section .logo-large {
+  text-align: center;
+  
+}
+
+section img {
+  width: 318px;
+  height: 110px;
+  margin-bottom: 20px;
+}
+
+/*募集*/
+.bosyu {
+  width: 100vw;
+  background-color: #EBB94D;
+  text-align: center;
+  font-weight: bold;
+}
+
+.bosyu p {
+  font-size: 20px;
+  color: white;
+  margin-top: 0;
+
+}
+
+.bosyu .text1 {
+  padding-top: 45px;
+  line-height: 10px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+.bosyu .text2 span{
+  font-family: "Consolas",sans-serif;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: white;
+  color: red;
+  padding: 3px;
+}
+
+.bosyu .contact-button {
+  margin: 45px 0;
+  border-radius: 50px;
+  height: 105px;
+  width: 1030px;
+  font-size: 28px;
+}
+
+.bosyu .text3 {
+  line-height: 23px;
+}
+
+.bosyu .text4 {
+  padding: 25px 0;
+
+}
