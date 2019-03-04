@@ -1,5 +1,13 @@
 body {
   font-family: "メイリオ", sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+#wrapper {
+  width: 100%;
+  overflow: hidden;
 }
 
 /*ヘッダー*/
@@ -216,4 +224,72 @@ section img {
   font-weight: bold;
   /* border-bottom: solid 8px #EBB94D; */
   background: linear-gradient(transparent 70%, #EBB94D 70%);
+}
+
+/*about-logo*/
+.about-logo{
+  position: relative;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #ebb94d;
+  text-align: center;
+  line-height: 80px;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 2px;
+  vertical-align: middle;
+  margin: -40px auto;
+  z-index: 9998;
+}
+
+/*about*/
+.about {
+  background-color: #FEF5E0;
+  text-align: center;
+}
+
+.about .space {
+  padding-top: 70px;
+  margin: 0;
+}
+.about-title {
+  line-height: 20px;
+  margin-top: 0;
+}
+
+.about-text {
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.about-skill {
+  margin: 0 auto;
+  padding: 20px 0;
+  border: solid 3px #EBB94D;
+  background-color: white;
+  max-width: 1170px;
+  
+}
+
+.about-skill ul {
+  display: table;
+  table-layout: fixed;
+  list-style: none;
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.about-skill li {
+  display: inline-block;
+  padding:  0 12px;
+}
+
+.about-skill img {
+  width: auto;
+  height: auto;
+  margin: 0;
 }
