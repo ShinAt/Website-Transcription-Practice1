@@ -293,3 +293,77 @@ section img {
   height: auto;
   margin: 0;
 }
+
+/*step*/
+.step {
+  background-image: url("素材/aboutsecondbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+.step-title {
+  margin-top: 0;
+  margin-bottom: 23px;
+  padding-top: 65px;
+  font-size: 28px;
+  color: white;
+}
+
+.step-text {
+  font-size: 20px;
+  color: white;
+}
+
+.step-text span {
+  color: #EBB94D;
+}
+
+.step ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding-left: 0px;
+  padding-bottom: 30px;
+  max-width: 1160px;
+}
+
+.step li {
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 7px;
+}
+
+.step-count {
+  background-color: #EBB94D;
+  padding: 1px 130px;
+  color: white;
+  border-radius: 7px;
+}
+
+.step-count-text {
+  font-size: 14px;
+}
+
+/*important*/
+.important {
+  background-color: #016EA9;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.important span {
+  color: #EBB94D;
+}
+
+.important p {
+  margin: 0;
+  padding: 45px 0;
+  letter-spacing: 2px;
+}
